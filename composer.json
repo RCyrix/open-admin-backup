@@ -1,0 +1,33 @@
+{
+    "name": "open-admin-ext/open-admin-backup",
+    "description": "Backup Extension for Open Admin (Adapted from Laravel-Admin : Backup)",
+    "type": "library",
+    "keywords": ["open-admin", "extension"],
+    "homepage": "https://github.com//RCyrix/open-admin-backup",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ryan Cruickshank",
+            "email": "ryan@cyrix.co.za"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "open-admin-org/open-admin": "~1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "OpenAdmin\\Backup\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "OpenAdmin\\Backup\\BackupServiceProvider"
+            ]
+        }
+    }
+}
