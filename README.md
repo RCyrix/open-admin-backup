@@ -20,7 +20,7 @@ JQuery has been stripped, open-admin-backup config file added for config values
 - Spatie Laravel Backup
 - https://spatie.be/docs/laravel-backup/v8/installation-and-setup
 - This extension
--
+
 Installation is relatively simple
 
 Install Laravel Spatie with
