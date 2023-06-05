@@ -5,7 +5,7 @@
 
 
 
-A vanilla javascript implementation of Laravel-Admi Backup extension
+A vanilla javascript implementation of Laravel-Admin Backup extension
 
 JQuery has been stripped, open-admin-backup config file added for config values
 
