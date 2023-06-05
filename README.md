@@ -36,3 +36,17 @@ Please let me know if there's an issue installing!
 Tested on MySQL (PostGreSQL should work in theory have not yet tested but will soon)
 
 Does NOT work with T-SQL (Microsoft SQL)
+
+To install locally add the following to composer.json of main project
+
+``` 
+"repositories": [
+        {
+            "type": "path",
+            "url": "app/Admin/Extensions/open-admin-ext/open-admin-backup"
+        }
+    ] 
+```
+
+```  composer require open-admin-ext/open-admin-backup:dev-main ```
+```  php artisan vendor:publish --provider=OpenAdmin\Backup\BackupServiceProvider ```
