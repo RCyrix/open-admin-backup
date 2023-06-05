@@ -29,7 +29,8 @@ Install Laravel Spatie with
 
 ``` php artisan vendor:publish --provider="Spatie\Backup\BackupServiceProvider" ```
 > This will install the required libraries from Spatie and publish assets
-> (In this case a config file : Backup.php)
+>
+> (In this case a config file : backup.php)
 
 Please let me know if there's an issue installing!
 
