@@ -50,3 +50,4 @@ To install locally add the following to composer.json of main project
 
 ```  composer require open-admin-ext/open-admin-backup:dev-main ```
 ```  php artisan vendor:publish --provider=OpenAdmin\Backup\BackupServiceProvider ```
+``` php artisan admin:import open-admin-backup ```
