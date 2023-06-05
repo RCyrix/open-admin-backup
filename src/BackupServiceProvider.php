@@ -16,17 +16,8 @@ class BackupServiceProvider extends ServiceProvider
             return ;
         }
 
-
-
         if ($views = $extension->views()) {
             $this->loadViewsFrom($views, 'open-admin-backup');
-        }
-
-        if ($this->app->runningInConsole() && $assets = $extension->assets()) {
-            $this->publishes(
-                [$assets => public_path('vendor/open-admin-ext/open-admin-backup')],
-                'open-admin-backup'
-            );
         }
 
         $this->app->booted(function () {

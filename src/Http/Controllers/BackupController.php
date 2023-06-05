@@ -15,11 +15,6 @@ use Symfony\Component\HttpFoundation\Response;
 use Admin;
 class BackupController extends Controller
 {
-    public function __construct()
-    {
-        Admin::js('vendor/open-admin-ext/open-admin-backup/backup.js');
-    }
-
     public function index(Content $content)
     {
         return Admin::content(function (Content $content) {
